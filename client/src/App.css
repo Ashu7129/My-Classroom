@@ -1,0 +1,278 @@
+ /* Landing page styles */
+
+.landingpage {
+    display: block;
+    text-align: center;
+    height: 300px;
+    width:65%;
+    margin:100px auto;
+}
+
+.landingpage .tab{
+    text-decoration: none;
+    font-size: 55px;
+    padding: 10px;
+    margin-left:5% ;
+    margin-right:20%;
+    margin-top: 55px;
+    position: relative;
+    float: left;
+    color: white;
+    border-radius: 10px;
+}
+
+.landingpage .tab:hover {
+    opacity: 0.7;
+}
+
+.student {
+    background-color: orange;
+}
+
+.teacher {
+    background-color: green;
+}
+
+.form {
+    display: block;
+    width: 400px;
+    border: 1px solid black;
+    background: rgb(247, 244, 247);
+    padding: 30px 15px;
+    margin: 150px auto;
+    border-radius: 10px;
+    min-height:330px ;
+}
+
+/* Dashboard styles */
+
+.logo {
+    position: relative;
+    float: left;
+    padding: 10px 0 0 15px;
+    cursor: pointer;
+}
+
+.drawerIcon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.rightIcon {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    margin: 8px 15px 5px 0;
+    font-size: "150%";
+}
+
+
+
+
+/* Homepage styles */
+
+.dashboard {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 3px rgb(194, 194, 194);
+    z-index: 1;
+}
+
+.dashlink{
+    position: relative;
+    text-align: center;
+    display: block;
+    box-sizing:content-box;
+    margin-top: 40px;
+}
+.dashlink li:hover{
+    color: rgb(14, 223, 223);
+}
+
+ .dashlink li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 6%;
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-family: monospace;
+    cursor: pointer;
+ }
+
+.subcontainer {
+    margin-top: 80px;
+}
+
+.subcard {
+    width: 25%;
+    min-width: 260px;
+    height: 250px;
+    padding: 25px 15px;
+    margin: 35px 10px 0 25px;
+    background-color:rgb(207, 207, 207);
+    box-shadow: 0 2px 5px rgb(194, 194, 194);
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    text-align: left;
+    word-wrap: break-word;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+.subcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 10px 20px;
+    transform: translate3d(0px, -1px, 0px);
+}
+
+.subname {
+    background-color: rgb(214, 214, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+    color: rgb(128, 128, 128);
+}
+
+
+
+/* Subjectpage styles */
+.subpage{
+    display: block;
+    margin: 80px auto;
+    padding-top:50px ;
+    width: 97%;
+    max-width: 1000px;
+    height:700px;
+}
+
+.subtitle{
+    padding: 15px 40px;
+    word-wrap: break-word;
+    background-color: rgb(239, 238, 240);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgb(194, 194, 194);
+}
+
+/* Subjectpage postcontainer styles */
+
+.postcontainer{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.post{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 2px 5px rgb(194, 194, 194);
+    border: 1px solid rgb(214, 211, 211);
+}
+
+.createpost{
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(229, 226, 226);
+    padding:10px 10px;
+    border-radius: 10px;
+}
+.createpost textarea {
+    width: 85%;
+    padding: 3px;
+    outline: none;
+    font-size: 1.1em;
+    font-family: inherit;
+    border: none;
+    resize:vertical;
+    background: transparent;
+ }
+ .createpost Button{
+     width: 15%;
+     min-width: 60px;
+     position: relative;
+     float: right;
+ }
+
+.notifications{
+    word-wrap: break-word;
+    width: 23%;
+    min-width: 150px;
+    margin-top: 30px;
+    padding: 10px;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 5px rgb(194, 194, 194);
+    border: 1px solid rgb(214, 211, 211);
+    
+}
+
+/* Assignment page styles */
+
+.assigncont{
+    display: block;
+    margin: 80px auto;
+    padding-top: 50px;
+    width: 97%;
+    max-width: 1000px;
+}
+
+.assignbox{
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 2px 5px rgb(194, 194, 194);
+    border: 1px solid rgb(214, 211, 211);
+}
+.assignbox ul{
+    list-style: none;
+}
+
+/* Testpage styles */
+
+.testcont{
+    display: block;
+    padding-top: 50px;
+    margin: 80px auto;
+    width: 97%;
+    max-width: 1000px;
+}
+
+.testbox{
+    padding: 10px;
+    width:45%;
+    min-width: 260px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 2px 5px rgb(194, 194, 194);
+    border: 1px solid rgb(214, 211, 211);
+    
+}
+
+.profilecont{
+    width:20%;
+    min-width:200px;
+    background-color: rgb(255, 253, 253);
+    position: fixed;
+    padding: 10px 5px;
+    right: 1%;
+    top:10%;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0px 2px 3px rgb(138, 138, 138);
+    border-radius: 10px;
+}
